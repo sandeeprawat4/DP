@@ -1,0 +1,54 @@
+There are A boxes placed in a straight line.
+You have to color the boxes using B colors such that any C consecutive boxes have distinct colors.
+Find and return the number of ways to color the boxes. As the answer can be very large, return it modulo 109 + 7.
+NOTE: Every color should be used at least once.  
+
+Constraints
+1 <= C <= B <= A <= 1000
+
+Input Format
+First argument is an integer A.
+Second argument is an integer B.
+Third argument is an integer C.
+
+
+Output Format
+Return an integer denoting the number of ways to color the boxes.
+
+Example Input
+
+Input 1:
+
+ A = 3
+ B = 2
+ C = 1
+
+Input 2:
+
+ A = 4
+ B = 2
+ C = 2
+
+
+
+Example Output
+
+Output 1:
+
+ 6
+
+Output 2:
+
+ 2
+
+
+
+Example Explanation
+
+Explanation 1:
+
+ All the possible 6 coloring : [1, 2, 1], [1, 1, 2], [1, 2, 2], [2, 2, 1], [2, 1, 2], [2, 1, 1]
+
+Explanation 2:
+
+ All the possible 2 coloring : [1, 2, 1, 2], [2, 1, 2, 1]
